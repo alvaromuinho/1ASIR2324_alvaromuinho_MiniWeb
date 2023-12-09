@@ -1,0 +1,327 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    font-family:"Arial";
+    box-sizing:border-box;
+  }
+  
+  #navegador{
+    width: 25%;
+  }
+
+  nav{
+    height:150px;
+    width:25%;
+  }
+  
+  label.logo{
+    text-shadow: #FF0000 2px 0 5px;
+    background:yellowgreen;
+    text-align: center;
+    text-decoration: underline;
+    font-size:100px;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    font-weight:bold;
+    box-sizing: border-box;
+    position: fixed;
+    top:0px;
+    left: 0px;
+  }
+
+  #F1{
+    text-shadow: #FF0000 2px 0 5px;
+    font-weight:bold;
+    font-size: 40px;
+    margin: 50px;
+    padding:50px;
+    border-radius:20px;
+    border:5px solid;
+    height: 150px;
+    width: 800px;
+    text-align: center;
+    border-color: yellow;
+    background-color:green;
+    text-transform:uppercase;
+    box-sizing: border-box;
+    position: relative;
+    top:150px;
+    left: 0;
+  }
+
+  #Escuderias{
+    color:black;
+    text-shadow: #FF0000 2px 0 5px;
+    font-weight:bold;
+    font-size: 40px;
+    margin: 50px;
+    padding:50px;
+    border-radius:20px;
+    border:5px solid;
+    height: 150px;
+    width: 800px;
+    text-align: center;
+    border-color: yellow;
+    background-color:green;
+    text-transform:uppercase;
+    box-sizing: border-box;
+    position: relative;
+    top:125px;
+    left: 0px;
+  }
+  
+  #Pilotos{
+    color:black;
+    text-shadow: #FF0000 2px 0 5px;
+    font-weight:bold;
+    font-size: 40px;
+    margin: 50px;
+    padding:50px;
+    border-radius:20px;
+    border:5px solid;
+    height: 150px;
+    width: 800px;
+    text-align: center;
+    border-color: yellow;
+    background-color:green;
+    text-transform:uppercase;
+    box-sizing: border-box;
+    position: relative;
+    top:100px;
+    left:0;
+  }
+
+  .contenedor1{
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .contenedor2{
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .contenedor3{
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .desplegable1 {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 150px;
+    width: inherit;
+    height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    box-sizing: border-box;
+
+  }
+
+  .desplegable2 {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 300px;
+    width: inherit;
+    height: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .desplegable3 {
+    display: none;
+    width: inherit;
+    height: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  a:visited{
+    color: inherit;
+  }
+  
+  #F1:hover{
+    background-color: red;
+    background-image: url(Chapas.jpg);
+    background-size: 800px 150px;
+  }
+
+  #Escuderias:hover{
+    background-color: red;
+    background-image: url(Iconos.jpg);
+    background-size: 800px 150px;
+  }
+
+  #Pilotos:hover{
+    background-color: red;
+    background-image: url(Perfiles.jpg);
+    background-size: 800px 150px;
+  }
+    
+  #desplegable a:hover {
+    background-color: greenyellow;
+  }
+
+  .desplegable1 a{
+    color:gold;
+    background-color: aquamarine;
+    border: 1px dotted black;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+    font-family: "Arial";
+    font-size: 40px;
+  }
+
+  .desplegable2 a{
+    color:gold;
+    background-color: aquamarine;
+    border: 1px dotted black;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+    font-family: "Arial";
+    font-size: 40px;
+  }
+
+  .desplegable3 a{
+    color:gold;
+    background-color: aquamarine;
+    border: 1px dotted black;
+    padding: 5%;
+    text-decoration: none;
+    display: block;
+    font-family: "Arial";
+    font-size: 40px;
+  }
+
+  .desplegable1 a:hover{
+    background-color: yellow;
+  }
+
+  .desplegable2 a:hover{
+    background-color: yellow;
+  }
+
+  .desplegable3 a:hover{
+    background-color: yellow;
+  }
+
+  .contenedor1:hover .desplegable1{
+    width: 800px;
+    height: 150px;
+    margin: 100px;
+    display: block;
+    box-sizing: border-box;
+    position: fixed;
+    top:110px;
+    left: 750px;
+  }
+
+  .contenedor2:hover .desplegable2{
+    width: 800px;
+    height: 150px;
+    margin: 100px;
+    display: block;
+    box-sizing: border-box;
+    position: fixed;
+    top:210px;
+    left: 750px;
+  }
+
+  .contenedor3:hover .desplegable3{
+    width: 800px;
+    height: 150px;
+    margin: 100px;
+    display: block;
+    box-sizing: border-box;
+    position: fixed;
+    top:500px;
+    left: 750px;
+  }
+
+
+  /*.desplegable1:hover #desplegable1{
+    display: block;
+    margin-left: 5%;
+    left: 500px;
+    position: relative;
+    width: 400px;
+    display: inline-block;
+  }
+
+  .desplegable2:hover #desplegable2{
+    display: block;
+    margin-left: 5%;
+    left: 500px;
+    position: relative;
+    width: 400px;
+    display: inline-block;
+  }
+
+  .desplegable3:hover #desplegable3{
+    display: block;
+    margin-left: 5%;
+    left: 500px;
+    position: relative;
+    width: 400px;
+    display: inline-block;
+  }
+    */
+  /*.Escuderias:hover .desplegable {
+    margin-left: 5%;
+    left: 500px;
+    position: relative;
+    width: 400px;
+    display: inline-block;
+  }
+  .Pilotos:hover .desplegable {
+    margin-left: 5%;
+    left: 500px;
+    position: relative;
+    width: 400px;
+    display: inline-block;
+  }*/
+   /*.caja_menu{
+    margin-top: 50px;
+    opacity: 80%;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }*/
+
+   /* .contenedor{
+    position: relative;
+    box-sizing: border-box;
+  }*/
+  /*.desplegable{
+    display: none;
+    position: relative;
+    width: inherit;
+    height: auto;
+    background-color: aquamarine;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+  }*/
+   /* .opciones{
+    color:black;
+    font-weight:bold;
+    font-size: 40px;
+    padding:50px;
+    border-radius:20px;
+    border:5px solid;
+    height: 150px;
+    width: 800px;
+    text-align: center;
+    border-color: white;
+    background-color:green;
+    text-transform:uppercase;
+  }*/

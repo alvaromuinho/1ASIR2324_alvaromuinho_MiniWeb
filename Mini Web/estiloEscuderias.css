@@ -1,0 +1,45 @@
+html {
+	font-family: "Arial";
+	text-align: justify;
+	color: black;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+h1 {
+	font-size: 3rem;
+	text-align: center;
+	text-shadow: #FF0000 1px 0 10px;
+}
+
+h3 {
+	margin-left: 75px;
+}
+
+h4 {
+	margin-left: 125px; 
+	text-decoration: underline;
+}
+
+#uno {
+	text-indent: 25px;
+}
+
+
+table {
+  border-collapse: collapse;
+  border: red 5px solid;
+  padding: 5px;
+}
+
+.header {
+	background-color: red;
+}
+
+#LosMasLaureados{
+	font-weight: bold;
+}
+
+.header{
+	font-weight: bold;
+}
