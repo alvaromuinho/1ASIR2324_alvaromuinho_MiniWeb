@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 html{
-	font-family: "Arial";
+	font-family: "Roboto", Arial, sans-serif;
 	text-align: justify;
 	color: white;
 	font-size: 20px;
@@ -16,9 +18,16 @@ h2{
 	font-size: 1.5rem;
 	text-align: center
 }
+.historia {
+    color: #d2f50b;
+    top: 185px;
+    left: 60px;
+    position: absolute;
+}
 
 #audio{
 	margin-left: 75px;
+	margin-top: 120px;
 }
 
 #subtitulo{
@@ -65,4 +74,30 @@ article{
 	background-repeat: no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+    border-radius: 15px;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 0.3s ease 0s;
 }

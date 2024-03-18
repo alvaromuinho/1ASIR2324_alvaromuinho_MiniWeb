@@ -1,3 +1,133 @@
-*{
-	font-family: "Arial";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+h1{
+    text-align: center;
+    position: absolute;
+    left:840px;
+    top: 50px;
+    font-size: 50px;
+}
+.bandera1{
+    position: absolute;
+    transform: scaleX(-1);
+    left: 610px;
+    top: 0px;
+}
+.bandera2{
+    position: absolute;
+    left: 1210px;
+    top: 0px;
+}
+
+body{
+    background-color: black;
+    font-family: "Roboto", Arial, sans-serif;
+    color: white;
+}
+.grid {
+    max-width: 940px;
+    
+}
+
+.grid > div {
+    border: 2px solid rgb(233,171,88);
+    border-radius: 5px;
+    padding: 1em;
+    color: red;
+    margin-left: 60px;
+    font-weight: bold;
+}
+pre{
+    margin-left: 160px;
+}
+.grid{
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+    gap: 1.5rem;
+    max-width: 65%;
+    margin: 300px;
+}
+#imagen{
+    margin-left: 160px;
+}
+#imagen1{
+    transform: scaleX(-1);
+    margin-top: 60px;
+
+}
+#imagen2{
+    margin-top: 60px;
+}
+.video > div{
+    max-width: 650px;
+    background-color: grey;
+}
+
+.dos {
+    grid-row: 2;
+}
+.tres {
+    grid-row: 3;
+}
+.cuatro{
+    grid-row: 4;
+}
+.cinco{
+    grid-row: 5;
+}
+.seis {
+    grid-row: 6;
+}
+.siete{
+    grid-row: 7;
+}
+.ocho{
+    grid-row: 8;
+}
+.nueve {
+    grid-row: 9;
+}
+.diez{
+    grid-row: 10;
+}
+.once{
+    grid-row: 11;
+}
+.doce{
+    grid-row: 12;
+}
+.trece{
+    grid-row: 13;
+}
+.catorce{
+    grid-row: 14;
+}
+.quince{
+    grid-row: 15;
+}
+.dieciseis{
+    grid-row: 16;
+}
+.diecisiete{
+    grid-row: 17;
+}
+.dieciocho{
+    grid-row: 18;
+}
+.diecinueve{
+    grid-row: 19;
+}
+.veinte{
+    grid-row: 20;
+}
+
+figcaption{
+	margin-left: 30px;
+}
+div:nth-of-type(even) {
+    grid-column: 2;
 }
